@@ -41,6 +41,16 @@ Download Java from https://www.java.com/en/download/ and follow their insruction
 
 It is important to make sure your Java path and sdk tools path are in your environment variables for your respective OS.
 
+The BrowserTest performs a search query on Google for mobile integrations group. This is achieved by launching Chrome on an Android phone, and the title of google.com is verified if it is displayed, as well as the image, indicating the page has loaded.
+
+A query is performed, and a console output is displayed containing all the links and their respective texts, it is important to note that the first result is miwtech.com, and it is displayed beneath WebResults in the console output when BrowserTest.java is launched.
+
+The TestNG framework used for AolTest.java has 14 tests total, and can be seen after the @Test annotation.
+
+The AOL client is initialized, launched, the mail icon is selected, and the user logs in with their username and password, an email is composed, and sent.  Screenshots of the inbox containing the subject link GEN TEST 2 are provided in this repo.
+
+
+
 
 ### Coding style for the tests
 There are two flavors I used. The Chrome browser search test has two files:
@@ -70,7 +80,7 @@ There are two flavors I used. The Chrome browser search test has two files:
     ```
 
 
-The second style I used were strictly TestNG annotaions which included screenshot functionality after each method and those screenshots are found in this coding exercise repository for [Screenshots](https://github.com/BCLion/MIW/tree/master/Results/Screenshots)
+The second style I used were strictly TestNG annotaions for AolTest.java which includes screenshot functionality after each method in order of execution and can be found in this coding exercise repository in the directory [Screenshots](https://github.com/BCLion/MIW/tree/master/Results/Screenshots)
 
 Sample of the TestNG annotations used are as follows:
 
@@ -83,4 +93,10 @@ Sample of the TestNG annotations used are as follows:
 ```
 
 A [TestNG report](https://github.com/BCLion/MIW/tree/master/Results/TestNG-Report) is generated showing pass or failed tests.
+
+
+### Tips
+
+When you have enabled USB debugging on your device, and it is recognized from the command prompt, you will need to disable USB debugging, turn off developer options, unplug your Android from the USB connection, and reboot the phone. After wards enable USB debugging and reconnect your phone to the USB cable. 
+
 
