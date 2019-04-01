@@ -6,7 +6,7 @@
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
 
 
-**Note: Feel free to [clone this repo](https://github.com/BCLion/MIW.git) to have the code, and reports locally**
+**Note: Feel free to [clone this repo](https://github.com/BCLion/MIW.git) to have the code, and reports locally, and the jar files for the [Selenium java client](https://github.com/BCLion/MIW/tree/master/Appium-Jars) are also provided.**
 ### Prerequisites
 
 ```
@@ -16,6 +16,7 @@ Node v10.15.1
 Appium v1.10 or higher
 Eclipse Java IDE Mars release or higher
 TestNG
+Selenium java client
 ```
 
 ### Installing
@@ -69,7 +70,7 @@ There are two flavors I used. The Chrome browser search test has two files:
     ```
 
 
-The second style I used were strictly TestNG annotaions which included screenshot functionality after each method andthose screenshots are found in this coding exercise repository for [Screenshots](https://github.com/BCLion/MIW/tree/master/Results/Screenshots)
+The second style I used were strictly TestNG annotaions which included screenshot functionality after each method and those screenshots are found in this coding exercise repository for [Screenshots](https://github.com/BCLion/MIW/tree/master/Results/Screenshots)
 
 Sample of the TestNG annotations used are as follows:
 
