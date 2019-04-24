@@ -1,4 +1,4 @@
-# MIW Coding Exercise
+# Installation of Selenium and Appium on Windows 10
 
 
 ## Getting Started
